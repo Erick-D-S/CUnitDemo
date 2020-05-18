@@ -1,0 +1,1 @@
+int parity(unsigned int number);
