@@ -4,3 +4,4 @@ before_install:
 - sudo apt-get install libcunit1 libcunit1-doc libcunit1-dev
 script: 
 - gcc -Wall CUnit_test_parity.c parity.c -o parity -lcunit
+- ./parity
